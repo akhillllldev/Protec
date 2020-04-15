@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ProtecLogin</string>
+    <string name="signUpWelcomeMessage">Hi,\nUser!</string>
+    <string name="signUpNameHint">Name</string>
+    <string name="signUpEmailHint">Email</string>
+    <string name="signUpPasswordHint">Password</string>
+    <string name="signUpText">Sign up</string>
+    <string name="signInText">Sign in</string>
+    <string name="welcomeBackText">Welcome Back!</string>
+    <string name="forgotPasswordText">Forgot Password</string>
+    <string name="background_image">Background Image</string>
 </resources>

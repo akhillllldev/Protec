@@ -17,9 +17,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="135dp"
         android:layout_marginEnd="8dp"
-        android:text="Hi,\nUser!"
+        android:text="@string/signUpWelcomeMessage"
         android:textColor="@android:color/white"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.27"
@@ -34,13 +34,14 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name"
+            android:hint="@string/signUpNameHint"
             android:backgroundTint="@android:color/transparent"
             android:padding="15dp"
-            android:inputType="textEmailAddress"
+            android:inputType="textPersonName"
             android:layout_marginStart="30dp"
             android:textColorHint="#797979"
-            android:textColor="#292929"/>
+            android:textColor="#292929"
+            android:autofillHints="" />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -51,13 +52,14 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/signUpEmailHint"
             android:backgroundTint="@android:color/transparent"
             android:padding="15dp"
             android:inputType="textEmailAddress"
             android:layout_marginStart="30dp"
             android:textColorHint="#797979"
-            android:textColor="#292929"/>
+            android:textColor="#292929"
+            android:autofillHints="email" />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -68,13 +70,14 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/signUpPasswordHint"
             android:backgroundTint="@android:color/transparent"
             android:padding="15dp"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:layout_marginStart="30dp"
             android:textColorHint="#797979"
-            android:textColor="#292929"/>
+            android:textColor="#292929"
+            android:autofillHints="password" />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -99,11 +102,12 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginEnd="30dp"
-                android:layout_centerInParent="true"/>
+                android:layout_centerInParent="true"
+                tools:ignore="RelativeOverlap" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign up"
+                android:text="@string/signUpText"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 android:textColor="#191919"
@@ -117,7 +121,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign in"
+                android:text="@string/signInText"
                 android:onClick="OpenLoginPage"
                 android:textStyle="bold"
                 android:textSize="18sp"
