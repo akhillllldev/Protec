@@ -1,1 +1,2 @@
 # Protec
+frozen 
